@@ -1,0 +1,17 @@
+{
+  "name": "monorepo-exp",
+  "version": "0.0.0",
+  "description": "An experimental repository of CHANGELOG generation for monorepo",
+  "repository": "git@github.com:NotFounds/monorepo-exp.git",
+  "author": "NotFounds",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.22.0",
+    "changesets": "^1.0.2",
+    "lerna": "^4.0.0"
+  }
+}

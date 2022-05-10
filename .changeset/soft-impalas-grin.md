@@ -1,0 +1,5 @@
+---
+"foo": minor
+---
+
+Add ccc

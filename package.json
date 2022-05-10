@@ -13,5 +13,12 @@
     "@changesets/cli": "^2.22.0",
     "changesets": "^1.0.2",
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bump": "yarn changeset version",
+    "publish": "yarn changeset publish",
+    "release": "yarn changeset tag && git push --follow-tags",
+    "pre-release": "yarn changeset pre enter next && yarn run bump && git add \".changeset/pre.json\" && git commit -m \"Enter Pre-release mode\" && yarn run release",
+    "exit-pre-release": "yarn changeset pre exit"
   }
 }

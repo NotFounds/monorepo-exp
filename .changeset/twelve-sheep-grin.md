@@ -1,5 +1,0 @@
----
-"foo": major
----
-
-Remove bbb

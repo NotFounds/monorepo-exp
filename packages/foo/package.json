@@ -1,5 +1,10 @@
 {
   "name": "@notfounds/foo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notfounds/monorepo-exp.git",
+    "directory": "packages/for"
+  },
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT"

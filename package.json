@@ -17,7 +17,7 @@
   "scripts": {
     "bump": "yarn changeset version",
     "release": "yarn changeset tag && git push --follow-tags",
-    "pre-release": "yarn changeset pre enter next && yarn run bump && git add \".changeset/pre.json\" && git commit -m \"Enter Pre-release mode\" && yarn run release",
+    "pre-release": "yarn changeset pre enter next && yarn run bump && git add . && git commit -m \"Enter Pre-release mode\" && yarn run release",
     "exit-pre-release": "yarn changeset pre exit"
   }
 }
